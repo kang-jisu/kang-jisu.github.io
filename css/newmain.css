@@ -1,12 +1,14 @@
 
 
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap');
-@import url('https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css');
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap');
+@import url('https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css'); */
+/* @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap'); */
 
- 
-
+@font-face{
+    font-family:  'Noto Sans KR';
+    src: url('../font/NotoSansCJKkr-Regular.otf');
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
