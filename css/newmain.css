@@ -40,6 +40,10 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+html{
+    
+  scroll-behavior: smooth;
+}
 body {
     line-height: 1;
     font-family: 'Noto Sans KR';
@@ -84,7 +88,7 @@ table {
     background-color:white;
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    height: 90vh;
     min-height: 550px;
     padding-top:10%;
   }
