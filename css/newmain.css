@@ -2,7 +2,6 @@
 
 @charset "UTF-8";
 /* @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap');
-@import url('https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css'); */
 /* @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap'); */
 
 @font-face{
@@ -118,7 +117,10 @@ table {
 
 #footer div{
     font-size:75%;
-    color:#ffffff9d;
+    color:#ffffff9d; 
+}
+#footer div a{
+    color:#ffffff9d; 
 }
 
 
@@ -145,20 +147,13 @@ section>div p,a{
     word-break:break-all;
 }
 
-section>div h1{
-    text-align: center;
-    font-size:2.5rem;
-}
-
-section>div h3{
-    font-size:1.5rem;
-    text-align:center;
-}
-
 .kakao-icon{
+    padding-bottom:30px;
+}
+.kakao-icon button{
     padding:3px 10px;
-     margin:30px 20px; 
      background-color:#fae100;
+     border:none;
 }
 
 .kakao-icon img{
@@ -174,23 +169,6 @@ section>div h3{
     font-size:0.8rem;
 }
 
-/* index.html말고 다른부분 < 첫 화면 클래스가 main-content */
-
-
-.main-content{
-    margin-top:10%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 500px;
-    height: 100vh;
-}
-
-.main-content button{
-    margin:30px;
-
-}
 
 .mainlogo{
     margin:20px;
@@ -206,6 +184,23 @@ section>div h3{
     padding-top:20px;
     padding-bottom:30px;
 }
+
+
+
+#big-container-2{
+    padding-top:10%;
+}
+
+#p3{
+    font-size:1.7rem;
+    font-weight: bold;
+    padding-bottom:10px;
+}
+#p4{
+    font-size:1.2rem;
+    padding-bottom:50px;
+}
+
 
 /*긴 모바일*/
 @media (min-height:700px){
@@ -226,9 +221,6 @@ section>div h3{
     }
     
 }
-
-
-
 /* 태블릿 */
 @media (min-width:768px){
     .header-top{
@@ -236,9 +228,6 @@ section>div h3{
         padding-bottom:25px;
     }
 
-    .main-content{
-        margin-top:5%;
-    }
 
     .mainlogo {
         margin-top:0px;
@@ -259,6 +248,12 @@ section>div h3{
         padding-left:auto;
         padding-right:auto;
     }
+    #big-container-2{
+        width:80%;
+        padding-top:20%;
+        padding-left:auto;
+        padding-right:auto;
+    }
     
 
 }
@@ -270,10 +265,6 @@ section>div h3{
         /* padding-top: 25px;
         padding-bottom:25px; */
         font-size:1.1rem;
-    }
-
-    .main-content{
-        margin-top:3%;
     }
 
     #p1{
