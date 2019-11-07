@@ -3,7 +3,9 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap');
 @import url('https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css');
+@import url('http://fonts.googleapis.com/earlyaccess/notosanskr.css');
 
+ 
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -39,7 +41,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
     line-height: 1;
-    font-family: 'NanumSquare';
+    font-family: 'Noto Sans KR';
+    letter-spacing: -1px;
 }
 ol, ul {
 	list-style: none;
@@ -70,35 +73,31 @@ table {
     color:brown;
   }
 
+  b{
+      font-weight: bold;
+  }
+
 /* 기본 및 휴대폰 */
 
 .background{
-    background-image: url("../image/wefl-background.jpg");
+    background-color:white;
     background-position: center;
     background-size: cover;
     height: 100vh;
     min-height: 550px;
+    padding-top:10%;
   }
 
 .header-top{
-    
-    padding-top: 25px;
-    padding-bottom:25px;
+    padding-top: 15px;
+    padding-bottom:15px;
     transition:0.3s;
-    background-color:#8181810e
+    background-color:white;
+    border-bottom: 1px #e1e1e1 solid;
 }
 
 .header-top a{
     color:#2e2e2e;
-}
-
-.etc-header-top{
-    
-    padding-top: 25px;
-    padding-bottom:25px;
-    transition:0.3s;
-    background-color:white;
-    border-bottom: 1px #e1e1e1 solid;
 }
 
 .header-shrink{
@@ -120,6 +119,7 @@ table {
     color:#ffffff9d;
 }
 
+
 section>div{
     display: flex;
     flex-direction: column;
@@ -133,8 +133,9 @@ section>div{
     margin-right: 0px;
 }
 
-section>div h1,h2,h3,h4,h5,h6,p,a,div{
-    padding:5px;
+section>div h1,h2,h3,h4,h5,h6,p,a{
+    padding-top:5px;
+    padding-bottom:5px;
 }
 
 section>div p,a{
@@ -175,12 +176,12 @@ section>div h3{
 
 
 .main-content{
-    margin-top:20%;
+    margin-top:10%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 550px;
+    min-height: 500px;
     height: 100vh;
 }
 
@@ -189,10 +190,29 @@ section>div h3{
 
 }
 
+.mainlogo{
+    margin:20px;
+}
+
+
+#p1{
+    font-size:1.3rem;
+}
+
+.main-text{
+    text-align: left;
+    padding-top:20px;
+    padding-bottom:30px;
+}
 
 
 /* 태블릿 */
 @media (min-width:768px){
+    .header-top{
+        padding-top: 25px;
+        padding-bottom:25px;
+    }
+    
     .background h1{
         text-align: center;
         font-size:4rem;
@@ -206,9 +226,30 @@ section>div h3{
         margin-top:5%;
     }
 
+    .mainlogo {
+        margin-top:0px;
+        margin-bottom:100px !important;
+    }
+    .mainlogo img{
+        width:230px !important;
+    }
+
+    #p1{
+        font-size:1.8rem !important;
+    }
+    #p2{
+        font-size:1.5rem !important;
+    }
+    
+
 }
 /* 데스크톱 */
 @media (min-width:980px){
+    .header-top{
+        padding-top: 25px;
+        padding-bottom:25px;
+        font-size:1.1rem;
+    }
     .background h1{
         text-align: center;
         font-size:5rem;
@@ -222,4 +263,34 @@ section>div h3{
     .main-content{
         margin-top:3%;
     }
+
+    .mainlogo{
+        float:right;
+        padding-left: 180px;
+        padding-top: 50px;
+    }
+    .main-text{
+        float:left;
+    }
 }
+
+/*긴 모바일*/
+@media (min-height:700px){
+
+    .mainlogo {
+        margin-top:0px;
+        margin-bottom:60px;
+    }
+    .mainlogo img{
+        width:180px;
+    }
+
+    #p1{
+        font-size:1.5rem;
+    }
+    #p2{
+        font-size:1.3rem;
+    }
+    
+}
+
