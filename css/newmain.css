@@ -330,8 +330,14 @@ section>div p,a{
 
 /*전체화면*/
 @media (min-width:1440px){
+
+    .main-text{
+        padding-left:10%;
+    }
+
     .leftside{
         padding-left:10%;
         
     }
+    
 }
