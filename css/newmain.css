@@ -44,7 +44,7 @@ footer, header, hgroup, menu, nav, section {
 body {
     line-height: 1;
     font-family: 'Noto Sans KR';
-    letter-spacing: -1px;
+    letter-spacing: -1.2px;
 }
 ol, ul {
 	list-style: none;
@@ -207,75 +207,6 @@ section>div h3{
     padding-bottom:30px;
 }
 
-
-/* 태블릿 */
-@media (min-width:768px){
-    .header-top{
-        padding-top: 25px;
-        padding-bottom:25px;
-    }
-    
-    .background h1{
-        text-align: center;
-        font-size:4rem;
-    }
-    
-    .background h3{
-        font-size:2.5rem;
-        text-align:center;
-    }
-    .main-content{
-        margin-top:5%;
-    }
-
-    .mainlogo {
-        margin-top:0px;
-        margin-bottom:100px !important;
-    }
-    .mainlogo img{
-        width:230px !important;
-    }
-
-    #p1{
-        font-size:1.8rem !important;
-    }
-    #p2{
-        font-size:1.5rem !important;
-    }
-    
-
-}
-/* 데스크톱 */
-@media (min-width:980px){
-    .header-top{
-        padding-top: 25px;
-        padding-bottom:25px;
-        font-size:1.1rem;
-    }
-    .background h1{
-        text-align: center;
-        font-size:5rem;
-    }
-    
-    .background h3{
-        font-size:3rem;
-        text-align:center;
-    }
-
-    .main-content{
-        margin-top:3%;
-    }
-
-    .mainlogo{
-        float:right;
-        padding-left: 180px;
-        padding-top: 50px;
-    }
-    .main-text{
-        float:left;
-    }
-}
-
 /*긴 모바일*/
 @media (min-height:700px){
 
@@ -294,5 +225,88 @@ section>div h3{
         font-size:1.3rem;
     }
     
+}
+
+
+
+/* 태블릿 */
+@media (min-width:768px){
+    .header-top{
+        padding-top: 25px;
+        padding-bottom:25px;
+    }
+
+    .main-content{
+        margin-top:5%;
+    }
+
+    .mainlogo {
+        margin-top:0px;
+        margin-bottom:100px !important;
+    }
+    .mainlogo img{
+        width:230px !important;
+    }
+
+    #p1{
+        font-size:1.7rem !important;
+    }
+    #p2{
+        font-size:1.7rem !important;
+    }
+    #big-container{
+        width:95%;
+        padding-left:auto;
+        padding-right:auto;
+    }
+    
+
+}
+/* 아이패드프로? */
+@media (min-width:980px)and (max-width:1140px){
+
+
+    .header-top{
+        /* padding-top: 25px;
+        padding-bottom:25px; */
+        font-size:1.1rem;
+    }
+
+    .main-content{
+        margin-top:3%;
+    }
+
+    #p1{
+        font-size:2rem !important;
+    }
+    #p2{
+        font-size:2rem !important;
+    }
+
+}
+
+/* 데스크톱 */
+@media (min-width:1140px){
+/* 
+    .header-top{
+        padding-top: 25px;
+        padding-bottom:25px;
+        font-size:1.1rem;
+    }
+
+    .main-content{
+        margin-top:3%;
+    } */
+
+    .mainlogo{
+        float:right;
+        padding-top: 40px;
+        padding-right:5%;
+    }
+
+    .main-text{
+        float:left;
+        padding-left:5%;
+    }
 }
 
