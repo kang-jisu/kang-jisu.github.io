@@ -1,13 +1,15 @@
 
 
 @charset "UTF-8";
-/* @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap');
-/* @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap'); */
-
+/* @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap');*/
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,400,500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pinyon+Script&display=swap');
+/* 
 @font-face{
     font-family:  'Noto Sans KR';
     src: url('../font/NotoSansCJKkr-Regular.otf');
-}
+} */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -141,6 +143,10 @@ section>div{
     margin-right: 0px;
 }
 
+section>div.relay{
+    min-height: 100px;
+}
+
 section>div h1,h2,h3,h4,h5,h6,p,a{
     padding-top:5px;
     padding-bottom:5px;
@@ -207,7 +213,7 @@ section>div p,a{
 
 
 /*긴 모바일*/
-@media (min-height:700px){
+@media (min-height:750px){
 
     .mainlogo {
         margin-top:0px;
