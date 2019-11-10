@@ -212,7 +212,7 @@ section>div p,a{
 }
 
 
-/*긴 모바일*/
+/*긴 모바일
 @media (min-height:750px){
 
     .mainlogo {
@@ -231,6 +231,8 @@ section>div p,a{
     }
     
 }
+*/
+
 /* 태블릿 */
 @media (min-width:768px){
     .header-top{
