@@ -42,7 +42,7 @@
 # 프로젝트 
 
 ## Gitfolio
-> 멋쟁이 사자처럼 6기 해커톤 프로젝트 : 깃허브를 이용한 나만의 포트폴리오 만들기   
+-  멋쟁이 사자처럼 6기 해커톤 프로젝트 : 깃허브를 이용한 나만의 포트폴리오 만들기   
 2018.06~2018.08
 
 <img alt="jsta" src="image/gitfolio.jpeg" width="200" >  
@@ -52,8 +52,8 @@
 - 관련 기술 : `Ruby on rails`, `html`, `css`
 
 ## Jstagram
-> 인스타그램 클론코딩  
-> 2019.10
+- 인스타그램 클론코딩  
+ 2019.10
 
 <img alt="jsta" src="image/jstagram_main.png" width="200" ><img alt="jsta" src="image/jstagram_detail.png" width="200"><img alt="jsta" src="image/jstagram_profile.png" width="200">
 
@@ -62,16 +62,16 @@
 - 관련 기술 : `SpringBoot`, `SpringSecurity`, `thymeleaf`, `React`, `MySQL`, `AWS` , `Bootstrap`
 
 ## WEFL 
-> 메인 사이트 제작  
->2019.10, 2020.03
+-  메인 사이트 제작  
+2019.10, 2020.03
 
 <img alt="jsta" src="image/wefl.png" width="200" >
 
 - 관련 기술 : `React`, `html`, `css`,
 
 
->대시보드 개발  
->2019.11 ~ 2020.03
+- 대시보드 개발  
+2019.11 ~ 2020.03
 
 <img alt="jsta" src="image/dashboard1.png" width="200" ><img alt="jsta" src="image/dashboard2.png" width="200" ><img alt="jsta" src="image/dashboard3.png" width="200" >
 
