@@ -55,9 +55,7 @@
 > 인스타그램 클론코딩  
 > 2019.10
 
-<img alt="jsta" src="image/jstagram_main.png" width="200" >
-<img alt="jsta" src="image/jstagram_detail.png" width="200">
-<img alt="jsta" src="image/jstagram_profile.png" width="200">
+<img alt="jsta" src="image/jstagram_main.png" width="200" ><img alt="jsta" src="image/jstagram_detail.png" width="200"><img alt="jsta" src="image/jstagram_profile.png" width="200">
 
 - github : [backend](https://github.com/kang-jisu/jstagram)  | [frontend](https://github.com/kang-jisu/jstagram-front)
 - 구현 : 게시글 작성, 댓글 추가, 회원가입, 로그인, 프로필, 팔로우
@@ -75,9 +73,7 @@
 >대시보드 개발  
 >2019.11 ~ 2020.03
 
-<img alt="jsta" src="image/dashboard1.png" width="200" >
-<img alt="jsta" src="image/dashboard2.png" width="200" >
-<img alt="jsta" src="image/dashboard3.png" width="200" >
+<img alt="jsta" src="image/dashboard1.png" width="200" ><img alt="jsta" src="image/dashboard2.png" width="200" ><img alt="jsta" src="image/dashboard3.png" width="200" >
 
 -  `SpringBoot`, `Gradle`, `Nginx`, `JWT`, `MYSQL`, `AWS`, `HTTPS`, `REST API`
 -  `React`, `Ant Design`, `Reactstrap`, `EC2`, `Axios`
