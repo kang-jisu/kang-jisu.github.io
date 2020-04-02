@@ -17,21 +17,21 @@
 # 활동 
 
 
-##  🍀 위플 인턴
+###  🍀 위플 인턴
 - 2019.10 ~ 2020.03
 - [wefl.net](https://wefl.net)
 - [카카오톡](https://pf.kakao.com/_ExbxoQT)
 - 홈페이지 제작 & 대시보드 개발
 - Spring boot, React
 
-## 🦁 멋쟁이 사자처럼 6기
+### 🦁 멋쟁이 사자처럼 6기
 - 2018.03 ~ 2018.12 (수료)
 - Ruby on Rails 사용한 웹 개발 
 - 2018.08 해커톤 
 - (+) 2019.09  react 수업 수강
 
 
-## 💻 개인 공부 
+### 💻 개인 공부 
 - 부스트코스 웹 프로그래밍 강좌  ( ing . . .)
 - code.plus (구) 알고리즘 기초 강의 (수강완료)
 - 백준  [bi0425](https://www.acmicpc.net/user/bi0425) | [문제풀이](https://github.com/kang-jisu/algorithm)
@@ -41,7 +41,7 @@
 
 # 프로젝트 
 
-## Gitfolio
+### Gitfolio
 -  멋쟁이 사자처럼 6기 해커톤 프로젝트 : 깃허브를 이용한 나만의 포트폴리오 만들기   
 2018.06~2018.08
 
@@ -51,7 +51,7 @@
 - 역할 : bootstrap을 사용하여 페이지 꾸미기 , ruby nokogiri를 사용하여 github 레파지토리, 리드미, 사용 언어 크롤링하기, google chart api 사용해 사용언어 시각화
 - 관련 기술 : `Ruby on rails`, `html`, `css`
 
-## Jstagram
+### Jstagram
 - 인스타그램 클론코딩  
  2019.10
 
@@ -61,7 +61,7 @@
 - 구현 : 게시글 작성, 댓글 추가, 회원가입, 로그인, 프로필, 팔로우
 - 관련 기술 : `SpringBoot`, `SpringSecurity`, `thymeleaf`, `React`, `MySQL`, `AWS` , `Bootstrap`
 
-## WEFL 
+### WEFL 
 -  메인 사이트 제작  
 2019.10, 2020.03
 
