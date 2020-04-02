@@ -41,6 +41,9 @@
 
 # 프로젝트 
 
+### Bootstrap 적용해보기
+- [lol analysis System](https://kang-jisu.github.io/old/oldindex.html)
+
 ### Gitfolio
 -  멋쟁이 사자처럼 6기 해커톤 프로젝트 : 깃허브를 이용한 나만의 포트폴리오 만들기   
 2018.06~2018.08
@@ -50,7 +53,7 @@
 - github : [gitfolio](https://github.com/kang-jisu/gitfolio)
 - 역할 : bootstrap을 사용하여 페이지 꾸미기 , ruby nokogiri를 사용하여 github 레파지토리, 리드미, 사용 언어 크롤링하기, google chart api 사용해 사용언어 시각화
 - 관련 기술 : `Ruby on rails`, `html`, `css`
-
+---
 ### Jstagram
 - 인스타그램 클론코딩  
  2019.10
@@ -60,16 +63,17 @@
 - github : [backend](https://github.com/kang-jisu/jstagram)  | [frontend](https://github.com/kang-jisu/jstagram-front)
 - 구현 : 게시글 작성, 댓글 추가, 회원가입, 로그인, 프로필, 팔로우
 - 관련 기술 : `SpringBoot`, `SpringSecurity`, `thymeleaf`, `React`, `MySQL`, `AWS` , `Bootstrap`
-
+---
 ### WEFL 
 -  메인 사이트 제작  
-2019.10, 2020.03
+2019.11, 2020.03
 
 <img alt="jsta" src="image/wefl.png" width="200" >
 
+- github (2019.11 ver): [wefl-mainpage](https://github.com/kang-jisu/wefl-mainpage)
 - 관련 기술 : `React`, `html`, `css`,
 
-
+----
 - 대시보드 개발  
 2019.11 ~ 2020.03
 
