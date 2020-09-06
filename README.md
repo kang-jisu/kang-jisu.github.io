@@ -112,7 +112,7 @@
 
 <img alt="ide" src="image/ide.png" width="400" >
 
-- github : [web-ide-front](https://https://github.com/LandvibeDev/web-ide-front)
+- github : [web-ide-front](https://github.com/LandvibeDev/web-ide-front/)
 - 구현 : workspace
 - 관련 기술 : `React`, `material-ui`, `json-server`, `redux`
   <br>⠀⠀⠀
