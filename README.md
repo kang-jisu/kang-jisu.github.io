@@ -92,6 +92,24 @@
 - `SpringBoot`, `Gradle`, `Nginx`, `JWT`, `MYSQL`, `AWS`, `HTTPS`, `REST API`
 - `React`, `Ant Design`, `Reactstrap`, `EC2`, `Axios`
 
+### PICS
+
+- 컴퓨터공학종합설계 2020-1 졸업프로젝트  
+  모바일 메신저 이용 중의 일정 저장 과정을 간소화하여 사용자들의 불편함을 해소하고자 스크린 캡쳐를 이용하여 일정을 저장하는 기능을 제공한다.
+
+- 사용 기술
+
+  - python , flask
+
+- contributor
+
+  - 백엔드([강지수](https://github.com/kang-jisu))
+  - 자연어처리([손인아](https://github.com/Ina-Son))
+  - 안드로이드([허예은](https://github.com/yenny-heo)) [PICS](https://github.com/yenny-heo/PICS)
+
+- [pics 유튜브 링크](https://www.youtube.com/watch?v=MvI6xxlcJ50&feature=youtu.be)  
+  <img alt="login" src="image/pics.png" width="197" >
+
 ### Jeju-instagram-front
 
 - 인스타그램 클론코딩 땅울림 써머코딩 스터디  
@@ -110,7 +128,7 @@
 - 웹 IDE workspace 제작
   2020.8
 
-<img alt="ide" src="image/ide.png" width="400" >
+<img alt="ide" src="image/ide.png" width="500" >
 
 - github : [web-ide-front](https://github.com/LandvibeDev/web-ide-front/)
 - 구현 : workspace
